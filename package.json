@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Kao9/Kao9.github.io#readme",
   "dependencies": {
     "bootstrap": "^3.3.6",
+    "desandro-classie": "^1.0.1",
     "install": "^0.8.1",
     "jquery": "^1.9.1",
     "jquery.appear": "^1.0.1",
