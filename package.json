@@ -1,0 +1,31 @@
+{
+  "name": "kao9.github.io",
+  "version": "1.0.0",
+  "description": "Colin Kemper's Webpage",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kao9/Kao9.github.io.git"
+  },
+  "author": "Colin Kemper <colinbkemper@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kao9/Kao9.github.io/issues"
+  },
+  "homepage": "https://github.com/Kao9/Kao9.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "install": "^0.8.1",
+    "jquery": "^1.9.1",
+    "jquery.appear": "^1.0.1",
+    "magnific-popup": "^1.1.0",
+    "masonry-layout": "^4.1.0",
+    "npm": "^3.10.3",
+    "owl.carousel": "^2.1.4",
+    "smooth-scroll": "cferdinandi/smooth-scroll",
+    "typed.js": "^1.1.1"
+  }
+}
