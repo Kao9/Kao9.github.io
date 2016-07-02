@@ -88,15 +88,6 @@
     inits();
 
 
-    //typed js
-    $(".typed").typed({
-        strings: ["My Name is Colin", "I'm a Musician", "Jumping Jacks!"],
-        typeSpeed: 100,
-        backDelay: 900,
-        // loop
-        loop: true
-    });
-
     //owl carousel
     $('.owl-carousel').owlCarousel({
       autoPlay: 3000, //Set AutoPlay to 3 seconds
@@ -146,17 +137,6 @@
       // other options
     });
 
-    //Skill
-    jQuery('.skillbar').each(function() {
-      jQuery(this).appear(function() {
-        jQuery(this).find('.count-bar').animate({
-          width:jQuery(this).attr('data-percent')
-        },3000);
-        var percent = jQuery(this).attr('data-percent');
-        jQuery(this).find('.count').html('<span>' + percent + '</span>');
-      });
-    });
-
 
   });
 
@@ -195,4 +175,4 @@
     });
   }
 
-})(jQuery);
+});
